@@ -1,0 +1,85 @@
+2025-02-18T20:54:04.116+02:00  INFO 19016 --- [TradeMapper] [main] a.t.TradeMapperApplicationTests          : Starting TradeMapperApplicationTests using Java 17.0.11 with PID 19016 (started by Code&Care0157 in C:\Users\Code&Care0157\Desktop\TradeMapper)
+2025-02-18T20:54:04.122+02:00  INFO 19016 --- [TradeMapper] [main] a.t.TradeMapperApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2025-02-18T20:54:05.836+02:00  INFO 19016 --- [TradeMapper] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-18T20:54:05.846+02:00  INFO 19016 --- [TradeMapper] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-18T20:54:05.938+02:00  INFO 19016 --- [TradeMapper] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+2025-02-18T20:54:09.214+02:00  INFO 19016 --- [TradeMapper] [main] a.t.TradeMapperApplicationTests          : Started TradeMapperApplicationTests in 5.864 seconds (process running for 27.843)
+2025-02-18T21:01:24.773+02:00  INFO 1008 --- [TradeMapper] [main] a.t.TradeMapperApplicationTests          : Starting TradeMapperApplicationTests using Java 17.0.11 with PID 1008 (started by Code&Care0157 in C:\Users\Code&Care0157\Desktop\TradeMapper)
+2025-02-18T21:01:24.793+02:00  INFO 1008 --- [TradeMapper] [main] a.t.TradeMapperApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2025-02-18T21:01:26.365+02:00  INFO 1008 --- [TradeMapper] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-18T21:01:26.371+02:00  INFO 1008 --- [TradeMapper] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-18T21:01:26.442+02:00  INFO 1008 --- [TradeMapper] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+2025-02-18T21:01:30.874+02:00  INFO 1008 --- [TradeMapper] [main] a.t.TradeMapperApplicationTests          : Started TradeMapperApplicationTests in 6.908 seconds (process running for 32.405)
+2025-02-18T21:02:12.512+02:00  INFO 19664 --- [TradeMapper] [main] app.trademapper.TradeMapperApplication   : Starting TradeMapperApplication using Java 17.0.11 with PID 19664 (C:\Users\Code&Care0157\Desktop\TradeMapper\target\classes started by Code&Care0157 in C:\Users\Code&Care0157\Desktop\TradeMapper)
+2025-02-18T21:02:12.516+02:00  INFO 19664 --- [TradeMapper] [main] app.trademapper.TradeMapperApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-02-18T21:02:13.979+02:00  INFO 19664 --- [TradeMapper] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-18T21:02:13.987+02:00  INFO 19664 --- [TradeMapper] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-18T21:02:14.082+02:00  INFO 19664 --- [TradeMapper] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 0 Redis repository interfaces.
+2025-02-18T21:02:15.121+02:00  INFO 19664 --- [TradeMapper] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-18T21:02:15.149+02:00  INFO 19664 --- [TradeMapper] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-18T21:02:15.150+02:00  INFO 19664 --- [TradeMapper] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2025-02-18T21:02:15.289+02:00  INFO 19664 --- [TradeMapper] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-18T21:02:15.290+02:00  INFO 19664 --- [TradeMapper] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2650 ms
+2025-02-18T21:02:17.543+02:00  INFO 19664 --- [TradeMapper] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-18T21:02:17.559+02:00  INFO 19664 --- [TradeMapper] [main] app.trademapper.TradeMapperApplication   : Started TradeMapperApplication in 5.945 seconds (process running for 6.615)
+2025-02-18T21:02:22.861+02:00  INFO 19664 --- [TradeMapper] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18T21:02:22.861+02:00  INFO 19664 --- [TradeMapper] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-18T21:02:22.863+02:00  INFO 19664 --- [TradeMapper] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-18T21:02:23.148+02:00 ERROR 19664 --- [TradeMapper] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Error processing trade data] with root cause
+
+java.lang.IllegalArgumentException: No valid trades found in file
+	at app.trademapper.service.impl.TradeServiceImpl.getEnrichedTrades(TradeServiceImpl.java:44) ~[classes/:na]
+	at app.trademapper.controller.TradeController.enrichTrades(TradeController.java:31) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.2.jar:6.1.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.2.jar:6.1.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.2.jar:6.1.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.2.jar:6.1.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.2.jar:6.1.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.2.jar:6.1.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.2.jar:6.1.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.2.jar:6.1.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.17.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.2.jar:6.1.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.17.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-02-18T21:02:51.753+02:00 ERROR 19664 --- [TradeMapper] [http-nio-8080-exec-4] app.trademapper.util.XmlLoader           : Invalid trade date: 202301 for trade: Trade(name=null, date=202301, productId=1, currency=USD, price=100.25)
+2025-02-18T21:02:51.757+02:00 ERROR 19664 --- [TradeMapper] [http-nio-8080-exec-4] app.trademapper.util.XmlLoader           : Invalid trade date: invalidDate for trade: Trade(name=null, date=invalidDate, productId=1, currency=EUR, price=1700.7)
